@@ -1,0 +1,153 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: border-box;
+    overflow-x: hidden;
+}
+/* herader css start */
+
+/* header css end */
+.hero{
+}
+.herotext{
+    width: 50%;
+
+}
+.herotext button{
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        background-color: #668aff;
+        border-radius: 18px;
+}
+.heroimg{
+    width: 50%;
+}
+
+.img{
+    height:5px;
+}
+.right1{
+    width: 50%;
+    padding: 6%
+}
+.left1{
+    width: 50%;
+    padding: 6%;
+}
+.right1 h3{
+    font-weight: 700;
+}
+.right1 p{
+    font-size: 20px;
+}
+.div2{
+    display: flex;
+
+}
+.footer{
+    margin-top: 15px;
+}
+.foot-pan1{
+    background-color: #e6ecff;
+    color:black;
+    height:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+
+}
+.foot-pan2{
+    background-color: #e6ecff;
+    color: black;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 15px;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: black;
+}
+
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.foot-pan4{
+    background-color: #668aff;
+    color: white;
+    height: 80px;
+    font-size: 12px;
+    text-align: center;
+}
+.pages{
+   
+    padding-top: 25px;
+}
+.copyright{
+    
+    padding-top: 5px;
+}
+.div3{
+    height: 320px;
+    display: flex;
+    padding: 20px;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 20px;
+    margin-left: 12px;
+  }
+
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+  .classespart1{
+    display: flex;
+    justify-content: space-between;
+  }
+  .classespart2{
+    display: flex;
+    justify-content: space-between;
+  }
+  .card1 {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 260px;
+    transition: 0.3s;
+    border-radius: 100%;
+    margin-left: 12px;
+  }
+
+  /* On mouse-over, add a deeper shadow */
+  .card1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }

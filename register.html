@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        *{
+            margin: 0px;
+            overflow-x: hidden;
+        }
+
+.complete{
+    display: flex;
+}
+.image{
+    width:40%;
+}
+.complete .form{
+    width: 60%;
+}
+.form1{
+    width: 580px;
+    margin-left: 150px;
+    background-color: #e6ebff;
+    border-radius: 10px;
+    padding: 15px;
+}
+body {
+    
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.me{
+    margin-left: 550px;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+}
+input[type="checkbox"]{
+    width:60px;
+}
+input[type="text"],
+input[type="tel"],
+textarea,
+select {
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #668aff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+input[type = "reset"]{
+    padding: 10px 20px;
+    background-color: #668aff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #4dff4d;
+}
+input[type="reset"]:hover {
+    background-color: #4dff4d;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+p {
+    margin-bottom: 10px;
+}
+
+    </style>
+</head>
+<body>
+
+   <div class="complete">
+    <div class="image">
+        <img src="images/img3.jpg">
+    </div>
+    <div class="form1">
+        <h1 style = " padding-left:100px;"> Registration Form </h1>
+        <form action="submit.php" method="POST" class="form" >
+             <label for="name">Name:</label>
+             <input type="text" name="name" required><br>
+     
+             <label for="contact">Contact number:</label>
+             <input type="tel" name="contact" required><br>
+     
+             <label for="email">E-mail:</label>
+             <input type="text" name="email" required><br>
+     
+             <label for="gender">Gender:</label>
+             <select name="gender" required>
+                 <option value="male">Male</option>
+                 <option value="female">Female</option>
+             </select><br>
+     
+     
+             <label for="Class">Class</label>
+             <select name="Class" required>
+                 <option value="Class1">Class 1</option>
+                 <option value="Class2">Class 2</option>
+                 <option value="Class3">Class 3</option>
+                 <option value="Class4">Class 4</option>
+                 <option value="Class5">Class 5</option>
+                 <option value="Class6">Class 6</option>
+                 <option value="Class7">Class 7</option>
+                 <option value="Class8">Class 8</option>
+     
+             </select><br>
+         </label><br>
+         <div class="buttons">
+            <input type="reset" value="Click here to Reset">
+            <input type="submit" value="Proceed to Payment">
+         </div><br><br>
+         </form>
+    </div>
+   </div>
+   </div>
+</body>
+</html>
+
+
